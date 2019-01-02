@@ -1,6 +1,0 @@
-Configuring amazonka-ec2-1.6.0...
-clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
-Preprocessing library for amazonka-ec2-1.6.0..
-Building library for amazonka-ec2-1.6.0..
-[  1 of 280] Compiling Network.AWS.EC2.Internal ( src/Network/AWS/EC2/Internal.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Network/AWS/EC2/Internal.o )
-[  2 of 280] Compiling Network.AWS.EC2.Types.Sum ( gen/Network/AWS/EC2/Types/Sum.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Network/AWS/EC2/Types/Sum.o )
