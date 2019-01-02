@@ -1,0 +1,79 @@
+name: file-server
+version: 0.1.0.0
+dependencies:
+- base >= 4.7 && < 5
+- core
+- async
+- bytestring
+- containers
+- mtl
+- stm
+- text
+- transformers
+- unordered-containers
+- vector
+- filepath
+- directory
+- unix
+- uniplate
+- show-prettyprint
+- path
+- path-io
+- time
+- binary
+- deepseq
+- foldl
+- process
+- warp
+- warp-tls
+- wai
+- wai-extra
+- wai-app-static
+- aeson
+- temporary
+- primitive
+- random
+- uuid
+- uuid-types
+- network-uri
+- lens
+- neat-interpolation
+- http-media
+- http-types
+- file-embed
+- template-haskell
+- case-insensitive
+- hspec
+
+default-extensions:
+  - NoImplicitPrelude
+  - PartialTypeSignatures
+  - OverloadedStrings
+  - OverloadedLabels
+  - TypeOperators
+  - DataKinds
+  - LambdaCase
+  - MultiParamTypeClasses
+  - FunctionalDependencies
+  - FlexibleContexts
+  - FlexibleInstances
+  - TypeFamilies
+  - TypeApplications
+  - ScopedTypeVariables
+
+
+library:
+  source-dirs:
+    - src
+
+executables:
+  file-server:
+    main:                Main.hs
+    source-dirs:         app
+    ghc-options:
+    - -threaded
+    - -rtsopts
+    - -with-rtsopts=-N
+    dependencies:
+    - base >= 4.7 && < 5
+    - file-server

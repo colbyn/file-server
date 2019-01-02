@@ -1,0 +1,86 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.31.0.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: 5dd2ec58991f358b09d8f5663408727de8aff2e1588609e2e7787da29758ba5f
+
+name:           core
+version:        0.1.0.0
+build-type:     Simple
+
+library
+  exposed-modules:
+      Core
+      Core.Class.Newtype
+      Core.Class.Renderable
+      Core.Record
+      Core.Record.Internal
+  other-modules:
+      Paths_core
+  hs-source-dirs:
+      src
+  default-extensions: NoImplicitPrelude PartialTypeSignatures OverloadedStrings OverloadedLabels TypeOperators DataKinds LambdaCase MultiParamTypeClasses FunctionalDependencies FlexibleContexts FlexibleInstances TypeFamilies TypeApplications ScopedTypeVariables
+  build-depends:
+      JuicyPixels
+    , aeson
+    , amazonka
+    , amazonka-dynamodb
+    , amazonka-dynamodb-streams
+    , amazonka-ec2
+    , amazonka-lambda
+    , amazonka-s3
+    , async
+    , base >=4.7 && <5
+    , base64-bytestring
+    , binary
+    , bytestring
+    , case-insensitive
+    , conduit-extra
+    , containers
+    , contravariant
+    , contravariant-extras
+    , cryptonite
+    , deepseq
+    , directory
+    , file-embed
+    , filepath
+    , foldl
+    , hspec
+    , http-client
+    , http-client-tls
+    , http-media
+    , http-types
+    , jose
+    , lens
+    , memory
+    , mtl
+    , neat-interpolation
+    , network-uri
+    , path
+    , path-io
+    , primitive
+    , process
+    , random
+    , resourcet
+    , show-prettyprint
+    , stm
+    , template-haskell
+    , temporary
+    , text
+    , time
+    , transformers
+    , uniplate
+    , unix
+    , unordered-containers
+    , uuid
+    , uuid-types
+    , vector
+    , wai
+    , wai-app-static
+    , wai-extra
+    , warp
+    , warp-tls
+    , wl-pprint-text
+  default-language: Haskell2010

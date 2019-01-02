@@ -1,0 +1,17 @@
+#############################################################################
+# Misc. Stack Helpers
+#############################################################################
+
+command build::library do
+  stack build file-server:lib
+
+command run do
+  stack build :file-server
+  stack exec api-server
+
+command ghci do
+  stack ghci file-server:lib
+
+command install do
+  stack build :file-server
+  stack install

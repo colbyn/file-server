@@ -1,0 +1,9 @@
+resolver: lts-12.7
+packages:
+- .
+
+extra-deps:
+- github: colbyn/core
+  commit: 0c6a5f2b930c12099c4b8aded137fce772aa78fd
+
+

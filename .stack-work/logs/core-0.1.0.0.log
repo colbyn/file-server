@@ -1,0 +1,13 @@
+Configuring core-0.1.0.0...
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+Preprocessing library for core-0.1.0.0..
+Building library for core-0.1.0.0..
+[1 of 6] Compiling Core             ( src/Core.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Core.o )
+[2 of 6] Compiling Core.Class.Newtype ( src/Core/Class/Newtype.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Core/Class/Newtype.o )
+[3 of 6] Compiling Core.Record.Internal ( src/Core/Record/Internal.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Core/Record/Internal.o )
+[4 of 6] Compiling Core.Record      ( src/Core/Record.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Core/Record.o )
+[5 of 6] Compiling Core.Class.Renderable ( src/Core/Class/Renderable.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Core/Class/Renderable.o )
+[6 of 6] Compiling Paths_core       ( .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/autogen/Paths_core.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Paths_core.o )
+ignoring (possibly broken) abi-depends field for packages
+Installing library in /Users/colbyn/Developer/Public/file-server/.stack-work/install/x86_64-osx/lts-12.7/8.4.3/lib/x86_64-osx-ghc-8.4.3/core-0.1.0.0-82X9YLPpMt3EWnWdhW0zXl
+Registering library for core-0.1.0.0..
